@@ -1,5 +1,8 @@
 # Simple Shell 🖱️
 
+## Authors 🦖
+Achigbue Henry Ifeakachukwu | [GitHub](https://github.com/Henryhife) | [Email](mailto:hife55@gmail.com>)
+
 This simple shell includes the basic functionality of a traditional Unix-like command line user interface. Standard functions and system calls employed in simple shell include: access, execve, exit, fork, free, fstat, getline, malloc, perror, signal, stat, wait, write.
 
 * [shell.h](shell.h) - program header file
@@ -22,7 +25,7 @@ This simple shell includes the basic functionality of a traditional Unix-like co
   * `_puts2` - prints a string to the standard error
   * `_uitoa` - converts an unsigned integer to a string
 * [memory_allocation.c](memory_allocation.c) - memory allocation functions
-  * `_realloc` - a custom realloc function for arrays of pointers
+  * `_realloc` - a custom realloc function for the arrays of pointers
 * [new_strtok.c](new_strtok.c) - custom strtok and helper functions
   * `check_match` - checks if a character matches any in a string
   * `new_strtok` - a custom strtok for the shell
@@ -82,8 +85,3 @@ drwxrwxr-x  8 vagrant vagrant  4096 Jul 19 22:34 .git
 -rw-rw-r--  1 vagrant vagrant  2111 Jul 16 01:10 strfunc.c
 -rw-rw-r--  1 vagrant vagrant   719 Jul 19 21:46 tokenize.c
 ```
-
-## Authors 🦖
-Chiedozie Ukah | [GitHub](https://github.com/dozonalx) | [Email](mailto:dozieukah@gmail.com>)
-
-Grace Effiong | [GitHub](https://github.com/Rubylena) | [Email](mailto:graceffiong@gmail.com)
